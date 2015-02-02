@@ -13,6 +13,7 @@
 		B01ECFB31A7DCCAA0038A948 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01ECFB21A7DCCAA0038A948 /* Images.xcassets */; };
 		B01ECFB61A7DCCAA0038A948 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B01ECFB41A7DCCAA0038A948 /* LaunchScreen.xib */; };
 		B01ECFC21A7DCCAA0038A948 /* Beacon_SmasherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01ECFC11A7DCCAA0038A948 /* Beacon_SmasherTests.swift */; };
+		B03EC3C61A7F314100D21881 /* BeaconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EC3C51A7F314100D21881 /* BeaconController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B01ECFBB1A7DCCAA0038A948 /* Beacon SmasherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beacon SmasherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01ECFC01A7DCCAA0038A948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B01ECFC11A7DCCAA0038A948 /* Beacon_SmasherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon_SmasherTests.swift; sourceTree = "<group>"; };
+		B03EC3C51A7F314100D21881 /* BeaconController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B01ECFB21A7DCCAA0038A948 /* Images.xcassets */,
 				B01ECFB41A7DCCAA0038A948 /* LaunchScreen.xib */,
 				B01ECFA91A7DCCAA0038A948 /* Supporting Files */,
+				B03EC3C51A7F314100D21881 /* BeaconController.swift */,
 			);
 			path = "Beacon Smasher";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B01ECFAE1A7DCCAA0038A948 /* ViewController.swift in Sources */,
+				B03EC3C61A7F314100D21881 /* BeaconController.swift in Sources */,
 				B01ECFAC1A7DCCAA0038A948 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,74 +6,58 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Beacon Smasher/ViewController.swift"
-            timestampString = "444503967.803499"
+            filePath = "Beacon Smasher/BeaconController.swift"
+            timestampString = "444544954.876101"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Beacon Smasher/ViewController.swift"
-            timestampString = "444504014.487452"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "locationManager(_:didRangeBeacons:inRegion:)"
             landmarkType = "5">
             <Locations>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Beacon_Smasher.ViewController.locationManager (Beacon_Smasher.ViewController)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLLocationManager&gt;, didRangeBeacons : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;, inRegion : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLBeaconRegion&gt;) -&gt; ()"
+                  symbolName = "Beacon_Smasher.BeaconController.locationManager (Beacon_Smasher.BeaconController)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLLocationManager&gt;, didRangeBeacons : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;, inRegion : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLBeaconRegion&gt;) -&gt; ()"
                   moduleName = "Beacon Smasher"
-                  urlString = "file:///Users/Steven/untitled%20folder/Beacon%20Smasher/Beacon%20Smasher/ViewController.swift"
-                  timestampString = "444504131.08689"
+                  urlString = "file:///Users/Steven/untitled%20folder/Beacon%20Smasher/Beacon%20Smasher/BeaconController.swift"
+                  timestampString = "444545091.10841"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "32">
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "28">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Beacon_Smasher.ViewController.(locationManager (Beacon_Smasher.ViewController) -&gt; (Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLLocationManager&gt;, didRangeBeacons : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;, inRegion : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLBeaconRegion&gt;) -&gt; ()).(closure #1)"
+                  symbolName = "Beacon_Smasher.BeaconController.(locationManager (Beacon_Smasher.BeaconController) -&gt; (Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLLocationManager&gt;, didRangeBeacons : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;, inRegion : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLBeaconRegion&gt;) -&gt; ()).(closure #1)"
                   moduleName = "Beacon Smasher"
-                  urlString = "file:///Users/Steven/untitled%20folder/Beacon%20Smasher/Beacon%20Smasher/ViewController.swift"
-                  timestampString = "444504131.087007"
+                  urlString = "file:///Users/Steven/untitled%20folder/Beacon%20Smasher/Beacon%20Smasher/BeaconController.swift"
+                  timestampString = "444545091.108583"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
                   offsetFromSymbolStart = "20">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "reabstraction thunk helper from @callee_owned (@owned Swift.AnyObject) -&gt; (@unowned Swift.Bool) to @callee_owned (@in Swift.AnyObject) -&gt; (@unowned Swift.Bool)"
                   moduleName = "Beacon Smasher"
-                  urlString = "file:///Users/Steven/untitled%20folder/Beacon%20Smasher/Beacon%20Smasher/ViewController.swift"
-                  timestampString = "444504131.087093"
+                  urlString = "file:///Users/Steven/untitled%20folder/Beacon%20Smasher/Beacon%20Smasher/BeaconController.swift"
+                  timestampString = "444545091.108681"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
                   offsetFromSymbolStart = "0">
                </Location>
             </Locations>
@@ -82,16 +66,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Beacon Smasher/ViewController.swift"
-            timestampString = "444504077.70348"
+            filePath = "Beacon Smasher/BeaconController.swift"
+            timestampString = "444544976.371536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "locationManager(_:didRangeBeacons:inRegion:)"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Beacon Smasher/BeaconController.swift"
+            timestampString = "444544982.072808"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -102,75 +102,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Beacon Smasher/ViewController.swift"
-            timestampString = "444504078.617439"
+            timestampString = "444544985.158553"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "locationManager(_:didRangeBeacons:inRegion:)"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Beacon Smasher/ViewController.swift"
-            timestampString = "444504359.25386"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "locationManager(_:didRangeBeacons:inRegion:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Beacon Smasher/ViewController.swift"
-            timestampString = "444504359.25386"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "locationManager(_:didRangeBeacons:inRegion:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Beacon_Smasher.ViewController.locationManager (Beacon_Smasher.ViewController)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLLocationManager&gt;, didRangeBeacons : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;, inRegion : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLBeaconRegion&gt;) -&gt; ()"
-                  moduleName = "Beacon Smasher"
-                  urlString = "file:///Users/Steven/untitled%20folder/Beacon%20Smasher/Beacon%20Smasher/ViewController.swift"
-                  timestampString = "444504141.986811"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "980">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Beacon_Smasher.ViewController.locationManager (Beacon_Smasher.ViewController)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLLocationManager&gt;, didRangeBeacons : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;, inRegion : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLBeaconRegion&gt;) -&gt; ()"
-                  moduleName = "Beacon Smasher"
-                  urlString = "file:///Users/Steven/untitled%20folder/Beacon%20Smasher/Beacon%20Smasher/ViewController.swift"
-                  timestampString = "444504141.986975"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "1036">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
