@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <PromiseKit.h>
+#import "PromiseKit.h"
 @interface OAuthHandler : NSObject
 
 + (OAuthHandler *)sharedInstance;
