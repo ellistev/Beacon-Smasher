@@ -13,11 +13,16 @@ class BeaconController: NSObject, CLLocationManagerDelegate{
     
     let locationManager = CLLocationManager()
     let region = CLBeaconRegion(proximityUUID: NSUUID(UUIDString: "f7826da6-4fa2-4e98-8024-bc5b71e0893e"), identifier: "Kontakt.io")
+
+
     
     override init(){
         super.init()
         //start scanning right away
         locationManager.delegate = self;
+    }
+    
+    func startRanging(){
         if (CLLocationManager.authorizationStatus() != CLAuthorizationStatus.AuthorizedWhenInUse) {
             locationManager.requestWhenInUseAuthorization()
         }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B012DF1F1A806F1D005030D7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B012DF1E1A806F1D005030D7 /* CoreBluetooth.framework */; };
 		B01ECFAC1A7DCCAA0038A948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01ECFAB1A7DCCAA0038A948 /* AppDelegate.swift */; };
 		B01ECFAE1A7DCCAA0038A948 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01ECFAD1A7DCCAA0038A948 /* ViewController.swift */; };
 		B01ECFB11A7DCCAA0038A948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01ECFAF1A7DCCAA0038A948 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B012DF1E1A806F1D005030D7 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		B01ECFA61A7DCCAA0038A948 /* Beacon Smasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beacon Smasher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01ECFAA1A7DCCAA0038A948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B01ECFAB1A7DCCAA0038A948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B012DF1F1A806F1D005030D7 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		B01ECF9D1A7DCCAA0038A948 = {
 			isa = PBXGroup;
 			children = (
+				B012DF1E1A806F1D005030D7 /* CoreBluetooth.framework */,
 				B01ECFA81A7DCCAA0038A948 /* Beacon Smasher */,
 				B01ECFBE1A7DCCAA0038A948 /* Beacon SmasherTests */,
 				B01ECFA71A7DCCAA0038A948 /* Products */,
