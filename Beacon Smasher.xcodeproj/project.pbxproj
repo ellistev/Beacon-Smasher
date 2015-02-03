@@ -29,46 +29,6 @@
 		B0E9D5911A808A2600220133 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0E9D5831A808A2600220133 /* Info.plist */; };
 		B0E9D5921A808A2600220133 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B0E9D5841A808A2600220133 /* Podfile */; };
 		B0E9D5931A808A2600220133 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5851A808A2600220133 /* README.md */; };
-		B0E9D5C91A808DBD00220133 /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = B0E9D5981A808DBD00220133 /* build.sh */; };
-		B0E9D5CA1A808DBD00220133 /* array.json in Resources */ = {isa = PBXBuildFile; fileRef = B0E9D59A1A808DBD00220133 /* array.json */; };
-		B0E9D5CB1A808DBD00220133 /* dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = B0E9D59B1A808DBD00220133 /* dictionary.json */; };
-		B0E9D5CC1A808DBD00220133 /* plain.text in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D59C1A808DBD00220133 /* plain.text */; };
-		B0E9D5CD1A808DBD00220133 /* ACAccountStore+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5A21A808DBD00220133 /* ACAccountStore+Promise.swift */; };
-		B0E9D5CE1A808DBD00220133 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5A31A808DBD00220133 /* after.swift */; };
-		B0E9D5CF1A808DBD00220133 /* AVAudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5A41A808DBD00220133 /* AVAudioSession.swift */; };
-		B0E9D5D01A808DBD00220133 /* CKContainer+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5A51A808DBD00220133 /* CKContainer+Promise.swift */; };
-		B0E9D5D11A808DBD00220133 /* CKDatabase+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5A61A808DBD00220133 /* CKDatabase+Promise.swift */; };
-		B0E9D5D21A808DBD00220133 /* CLGeocoder+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5A71A808DBD00220133 /* CLGeocoder+Promise.swift */; };
-		B0E9D5D31A808DBD00220133 /* CLLocationManager+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5A81A808DBD00220133 /* CLLocationManager+Promise.swift */; };
-		B0E9D5D41A808DBD00220133 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5A91A808DBD00220133 /* constants.swift */; };
-		B0E9D5D51A808DBD00220133 /* misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5AA1A808DBD00220133 /* misc.swift */; };
-		B0E9D5D61A808DBD00220133 /* MKDirections+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5AB1A808DBD00220133 /* MKDirections+Promise.swift */; };
-		B0E9D5D71A808DBD00220133 /* MKMapSnapshotter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5AC1A808DBD00220133 /* MKMapSnapshotter+Promise.swift */; };
-		B0E9D5D81A808DBD00220133 /* NSFileManager+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5AD1A808DBD00220133 /* NSFileManager+Promise.swift */; };
-		B0E9D5D91A808DBD00220133 /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5AE1A808DBD00220133 /* NSNotificationCenter+Promise.swift */; };
-		B0E9D5DA1A808DBD00220133 /* NSURLConnection+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5AF1A808DBD00220133 /* NSURLConnection+Promise.swift */; };
-		B0E9D5DB1A808DBD00220133 /* OMGHTTPURLRQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5B01A808DBD00220133 /* OMGHTTPURLRQ.m */; };
-		B0E9D5DC1A808DBD00220133 /* OMGUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5B11A808DBD00220133 /* OMGUserAgent.m */; };
-		B0E9D5DD1A808DBD00220133 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5B21A808DBD00220133 /* Promise.swift */; };
-		B0E9D5DE1A808DBD00220133 /* SKRequest+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5B41A808DBD00220133 /* SKRequest+Promise.swift */; };
-		B0E9D5DF1A808DBD00220133 /* SLRequest+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5B51A808DBD00220133 /* SLRequest+Promise.swift */; };
-		B0E9D5E01A808DBD00220133 /* UIActionSheet+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5B61A808DBD00220133 /* UIActionSheet+Promise.swift */; };
-		B0E9D5E11A808DBD00220133 /* UIAlertView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5B71A808DBD00220133 /* UIAlertView+Promise.swift */; };
-		B0E9D5E21A808DBD00220133 /* UIView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5B81A808DBD00220133 /* UIView+Promise.swift */; };
-		B0E9D5E31A808DBD00220133 /* UIViewController+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5B91A808DBD00220133 /* UIViewController+Promise.swift */; };
-		B0E9D5E41A808DBD00220133 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5BA1A808DBD00220133 /* when.swift */; };
-		B0E9D5E51A808DBD00220133 /* NSURLConnection+Promise.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5BC1A808DBD00220133 /* NSURLConnection+Promise.test.swift */; };
-		B0E9D5E61A808DBD00220133 /* Promise.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5BD1A808DBD00220133 /* Promise.test.swift */; };
-		B0E9D5E71A808DBD00220133 /* 2.1.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5BF1A808DBD00220133 /* 2.1.2.swift */; };
-		B0E9D5E81A808DBD00220133 /* 2.1.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5C01A808DBD00220133 /* 2.1.3.swift */; };
-		B0E9D5E91A808DBD00220133 /* 2.2.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5C11A808DBD00220133 /* 2.2.2.swift */; };
-		B0E9D5EA1A808DBD00220133 /* 2.2.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5C21A808DBD00220133 /* 2.2.3.swift */; };
-		B0E9D5EB1A808DBD00220133 /* 2.2.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5C31A808DBD00220133 /* 2.2.4.swift */; };
-		B0E9D5EC1A808DBD00220133 /* 2.2.6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5C41A808DBD00220133 /* 2.2.6.swift */; };
-		B0E9D5ED1A808DBD00220133 /* 2.3.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5C51A808DBD00220133 /* 2.3.2.swift */; };
-		B0E9D5EE1A808DBD00220133 /* 2.3.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5C61A808DBD00220133 /* 2.3.3.swift */; };
-		B0E9D5EF1A808DBD00220133 /* 2.3.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5C71A808DBD00220133 /* 2.3.4.swift */; };
-		B0E9D5F01A808DBD00220133 /* test-utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5C81A808DBD00220133 /* test-utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,27 +45,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = B48FCA2E1A0789B8006458BD;
 			remoteInfo = DartleSDK;
-		};
-		B0E9D5F41A808DBD00220133 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B0E9D59E1A808DBD00220133 /* PromiseKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 637D0F1119437D4C0059AD78;
-			remoteInfo = PromiseKit;
-		};
-		B0E9D5F61A808DBD00220133 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B0E9D59E1A808DBD00220133 /* PromiseKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 637D0F1219437D4C0059AD78;
-			remoteInfo = PromiseKitTests;
-		};
-		B0E9D5F81A808DBD00220133 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B0E9D59E1A808DBD00220133 /* PromiseKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 637D0F1019437D4C0059AD78;
-			remoteInfo = PMKDemo;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -147,49 +86,6 @@
 		B0E9D5831A808A2600220133 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0E9D5841A808A2600220133 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		B0E9D5851A808A2600220133 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B0E9D5981A808DBD00220133 /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
-		B0E9D59A1A808DBD00220133 /* array.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = array.json; sourceTree = "<group>"; };
-		B0E9D59B1A808DBD00220133 /* dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dictionary.json; sourceTree = "<group>"; };
-		B0E9D59C1A808DBD00220133 /* plain.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = plain.text; sourceTree = "<group>"; };
-		B0E9D59D1A808DBD00220133 /* PMK.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PMK.playground; sourceTree = "<group>"; };
-		B0E9D59E1A808DBD00220133 /* PromiseKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PromiseKit.xcodeproj; sourceTree = "<group>"; };
-		B0E9D5A21A808DBD00220133 /* ACAccountStore+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACAccountStore+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5A31A808DBD00220133 /* after.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = after.swift; sourceTree = "<group>"; };
-		B0E9D5A41A808DBD00220133 /* AVAudioSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAudioSession.swift; sourceTree = "<group>"; };
-		B0E9D5A51A808DBD00220133 /* CKContainer+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CKContainer+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5A61A808DBD00220133 /* CKDatabase+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CKDatabase+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5A71A808DBD00220133 /* CLGeocoder+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLGeocoder+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5A81A808DBD00220133 /* CLLocationManager+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5A91A808DBD00220133 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
-		B0E9D5AA1A808DBD00220133 /* misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = misc.swift; sourceTree = "<group>"; };
-		B0E9D5AB1A808DBD00220133 /* MKDirections+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKDirections+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5AC1A808DBD00220133 /* MKMapSnapshotter+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapSnapshotter+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5AD1A808DBD00220133 /* NSFileManager+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFileManager+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5AE1A808DBD00220133 /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5AF1A808DBD00220133 /* NSURLConnection+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLConnection+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5B01A808DBD00220133 /* OMGHTTPURLRQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGHTTPURLRQ.m; sourceTree = "<group>"; };
-		B0E9D5B11A808DBD00220133 /* OMGUserAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGUserAgent.m; sourceTree = "<group>"; };
-		B0E9D5B21A808DBD00220133 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
-		B0E9D5B31A808DBD00220133 /* PromiseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromiseKit.h; sourceTree = "<group>"; };
-		B0E9D5B41A808DBD00220133 /* SKRequest+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKRequest+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5B51A808DBD00220133 /* SLRequest+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SLRequest+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5B61A808DBD00220133 /* UIActionSheet+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActionSheet+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5B71A808DBD00220133 /* UIAlertView+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertView+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5B81A808DBD00220133 /* UIView+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5B91A808DBD00220133 /* UIViewController+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Promise.swift"; sourceTree = "<group>"; };
-		B0E9D5BA1A808DBD00220133 /* when.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = when.swift; sourceTree = "<group>"; };
-		B0E9D5BC1A808DBD00220133 /* NSURLConnection+Promise.test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLConnection+Promise.test.swift"; sourceTree = "<group>"; };
-		B0E9D5BD1A808DBD00220133 /* Promise.test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.test.swift; sourceTree = "<group>"; };
-		B0E9D5BF1A808DBD00220133 /* 2.1.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.1.2.swift; sourceTree = "<group>"; };
-		B0E9D5C01A808DBD00220133 /* 2.1.3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.1.3.swift; sourceTree = "<group>"; };
-		B0E9D5C11A808DBD00220133 /* 2.2.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.2.2.swift; sourceTree = "<group>"; };
-		B0E9D5C21A808DBD00220133 /* 2.2.3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.2.3.swift; sourceTree = "<group>"; };
-		B0E9D5C31A808DBD00220133 /* 2.2.4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.2.4.swift; sourceTree = "<group>"; };
-		B0E9D5C41A808DBD00220133 /* 2.2.6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.2.6.swift; sourceTree = "<group>"; };
-		B0E9D5C51A808DBD00220133 /* 2.3.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.3.2.swift; sourceTree = "<group>"; };
-		B0E9D5C61A808DBD00220133 /* 2.3.3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.3.3.swift; sourceTree = "<group>"; };
-		B0E9D5C71A808DBD00220133 /* 2.3.4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.3.4.swift; sourceTree = "<group>"; };
-		B0E9D5C81A808DBD00220133 /* test-utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "test-utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,7 +110,6 @@
 		B01ECF9D1A7DCCAA0038A948 = {
 			isa = PBXGroup;
 			children = (
-				B0E9D5971A808DBD00220133 /* swift */,
 				B0E9D5681A808A2600220133 /* nfnty_admin-dartlesdk_ios-0e23d54c420d */,
 				B012DF1E1A806F1D005030D7 /* CoreBluetooth.framework */,
 				B01ECFA81A7DCCAA0038A948 /* Beacon Smasher */,
@@ -327,99 +222,6 @@
 			path = DartleSDKTests;
 			sourceTree = "<group>";
 		};
-		B0E9D5971A808DBD00220133 /* swift */ = {
-			isa = PBXGroup;
-			children = (
-				B0E9D5981A808DBD00220133 /* build.sh */,
-				B0E9D5991A808DBD00220133 /* Fixtures */,
-				B0E9D59D1A808DBD00220133 /* PMK.playground */,
-				B0E9D59E1A808DBD00220133 /* PromiseKit.xcodeproj */,
-				B0E9D5A11A808DBD00220133 /* Sources */,
-				B0E9D5BB1A808DBD00220133 /* Specs */,
-			);
-			name = swift;
-			path = "PromiseKit-master 2/swift";
-			sourceTree = "<group>";
-		};
-		B0E9D5991A808DBD00220133 /* Fixtures */ = {
-			isa = PBXGroup;
-			children = (
-				B0E9D59A1A808DBD00220133 /* array.json */,
-				B0E9D59B1A808DBD00220133 /* dictionary.json */,
-				B0E9D59C1A808DBD00220133 /* plain.text */,
-			);
-			path = Fixtures;
-			sourceTree = "<group>";
-		};
-		B0E9D59F1A808DBD00220133 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B0E9D5F51A808DBD00220133 /* PromiseKit.framework */,
-				B0E9D5F71A808DBD00220133 /* PromiseKitTests.xctest */,
-				B0E9D5F91A808DBD00220133 /* PMKDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B0E9D5A11A808DBD00220133 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				B0E9D5A21A808DBD00220133 /* ACAccountStore+Promise.swift */,
-				B0E9D5A31A808DBD00220133 /* after.swift */,
-				B0E9D5A41A808DBD00220133 /* AVAudioSession.swift */,
-				B0E9D5A51A808DBD00220133 /* CKContainer+Promise.swift */,
-				B0E9D5A61A808DBD00220133 /* CKDatabase+Promise.swift */,
-				B0E9D5A71A808DBD00220133 /* CLGeocoder+Promise.swift */,
-				B0E9D5A81A808DBD00220133 /* CLLocationManager+Promise.swift */,
-				B0E9D5A91A808DBD00220133 /* constants.swift */,
-				B0E9D5AA1A808DBD00220133 /* misc.swift */,
-				B0E9D5AB1A808DBD00220133 /* MKDirections+Promise.swift */,
-				B0E9D5AC1A808DBD00220133 /* MKMapSnapshotter+Promise.swift */,
-				B0E9D5AD1A808DBD00220133 /* NSFileManager+Promise.swift */,
-				B0E9D5AE1A808DBD00220133 /* NSNotificationCenter+Promise.swift */,
-				B0E9D5AF1A808DBD00220133 /* NSURLConnection+Promise.swift */,
-				B0E9D5B01A808DBD00220133 /* OMGHTTPURLRQ.m */,
-				B0E9D5B11A808DBD00220133 /* OMGUserAgent.m */,
-				B0E9D5B21A808DBD00220133 /* Promise.swift */,
-				B0E9D5B31A808DBD00220133 /* PromiseKit.h */,
-				B0E9D5B41A808DBD00220133 /* SKRequest+Promise.swift */,
-				B0E9D5B51A808DBD00220133 /* SLRequest+Promise.swift */,
-				B0E9D5B61A808DBD00220133 /* UIActionSheet+Promise.swift */,
-				B0E9D5B71A808DBD00220133 /* UIAlertView+Promise.swift */,
-				B0E9D5B81A808DBD00220133 /* UIView+Promise.swift */,
-				B0E9D5B91A808DBD00220133 /* UIViewController+Promise.swift */,
-				B0E9D5BA1A808DBD00220133 /* when.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		B0E9D5BB1A808DBD00220133 /* Specs */ = {
-			isa = PBXGroup;
-			children = (
-				B0E9D5BC1A808DBD00220133 /* NSURLConnection+Promise.test.swift */,
-				B0E9D5BD1A808DBD00220133 /* Promise.test.swift */,
-				B0E9D5BE1A808DBD00220133 /* Promises:A+ Specs */,
-				B0E9D5C81A808DBD00220133 /* test-utils.swift */,
-			);
-			path = Specs;
-			sourceTree = "<group>";
-		};
-		B0E9D5BE1A808DBD00220133 /* Promises:A+ Specs */ = {
-			isa = PBXGroup;
-			children = (
-				B0E9D5BF1A808DBD00220133 /* 2.1.2.swift */,
-				B0E9D5C01A808DBD00220133 /* 2.1.3.swift */,
-				B0E9D5C11A808DBD00220133 /* 2.2.2.swift */,
-				B0E9D5C21A808DBD00220133 /* 2.2.3.swift */,
-				B0E9D5C31A808DBD00220133 /* 2.2.4.swift */,
-				B0E9D5C41A808DBD00220133 /* 2.2.6.swift */,
-				B0E9D5C51A808DBD00220133 /* 2.3.2.swift */,
-				B0E9D5C61A808DBD00220133 /* 2.3.3.swift */,
-				B0E9D5C71A808DBD00220133 /* 2.3.4.swift */,
-			);
-			path = "Promises:A+ Specs";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -493,10 +295,6 @@
 					ProductGroup = B0E9D57F1A808A2600220133 /* Products */;
 					ProjectRef = B0E9D57E1A808A2600220133 /* DartleSDK.xcodeproj */;
 				},
-				{
-					ProductGroup = B0E9D59F1A808DBD00220133 /* Products */;
-					ProjectRef = B0E9D59E1A808DBD00220133 /* PromiseKit.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -514,27 +312,6 @@
 			remoteRef = B0E9D5951A808A2600220133 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B0E9D5F51A808DBD00220133 /* PromiseKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PromiseKit.framework;
-			remoteRef = B0E9D5F41A808DBD00220133 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B0E9D5F71A808DBD00220133 /* PromiseKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PromiseKitTests.xctest;
-			remoteRef = B0E9D5F61A808DBD00220133 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B0E9D5F91A808DBD00220133 /* PMKDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = PMKDemo.app;
-			remoteRef = B0E9D5F81A808DBD00220133 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -543,13 +320,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0E9D5921A808A2600220133 /* Podfile in Resources */,
-				B0E9D5CA1A808DBD00220133 /* array.json in Resources */,
 				B01ECFB11A7DCCAA0038A948 /* Main.storyboard in Resources */,
 				B01ECFB61A7DCCAA0038A948 /* LaunchScreen.xib in Resources */,
-				B0E9D5C91A808DBD00220133 /* build.sh in Resources */,
 				B01ECFB31A7DCCAA0038A948 /* Images.xcassets in Resources */,
 				B0E9D5911A808A2600220133 /* Info.plist in Resources */,
-				B0E9D5CB1A808DBD00220133 /* dictionary.json in Resources */,
 				B0E9D58F1A808A2600220133 /* DartleSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,57 +342,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E9D5D91A808DBD00220133 /* NSNotificationCenter+Promise.swift in Sources */,
 				B0E9D58E1A808A2600220133 /* RestHandler.m in Sources */,
-				B0E9D5DB1A808DBD00220133 /* OMGHTTPURLRQ.m in Sources */,
-				B0E9D5E71A808DBD00220133 /* 2.1.2.swift in Sources */,
-				B0E9D5E41A808DBD00220133 /* when.swift in Sources */,
-				B0E9D5CC1A808DBD00220133 /* plain.text in Sources */,
-				B0E9D5CF1A808DBD00220133 /* AVAudioSession.swift in Sources */,
-				B0E9D5EF1A808DBD00220133 /* 2.3.4.swift in Sources */,
 				B0E9D5891A808A2600220133 /* DartleBeaconRegion.m in Sources */,
-				B0E9D5DF1A808DBD00220133 /* SLRequest+Promise.swift in Sources */,
-				B0E9D5E11A808DBD00220133 /* UIAlertView+Promise.swift in Sources */,
-				B0E9D5D81A808DBD00220133 /* NSFileManager+Promise.swift in Sources */,
-				B0E9D5F01A808DBD00220133 /* test-utils.swift in Sources */,
-				B0E9D5DD1A808DBD00220133 /* Promise.swift in Sources */,
-				B0E9D5E31A808DBD00220133 /* UIViewController+Promise.swift in Sources */,
-				B0E9D5DE1A808DBD00220133 /* SKRequest+Promise.swift in Sources */,
-				B0E9D5E51A808DBD00220133 /* NSURLConnection+Promise.test.swift in Sources */,
-				B0E9D5E81A808DBD00220133 /* 2.1.3.swift in Sources */,
 				B0E9D58A1A808A2600220133 /* DartleManager.m in Sources */,
-				B0E9D5D41A808DBD00220133 /* constants.swift in Sources */,
 				B01ECFAE1A7DCCAA0038A948 /* ViewController.swift in Sources */,
-				B0E9D5EA1A808DBD00220133 /* 2.2.3.swift in Sources */,
-				B0E9D5CE1A808DBD00220133 /* after.swift in Sources */,
 				B0E9D58D1A808A2600220133 /* OAuthHandler.m in Sources */,
-				B0E9D5DA1A808DBD00220133 /* NSURLConnection+Promise.swift in Sources */,
-				B0E9D5D51A808DBD00220133 /* misc.swift in Sources */,
-				B0E9D5EB1A808DBD00220133 /* 2.2.4.swift in Sources */,
-				B0E9D5ED1A808DBD00220133 /* 2.3.2.swift in Sources */,
 				B0E9D5861A808A2600220133 /* BeaconManager.m in Sources */,
-				B0E9D5EE1A808DBD00220133 /* 2.3.3.swift in Sources */,
-				B0E9D5D31A808DBD00220133 /* CLLocationManager+Promise.swift in Sources */,
-				B0E9D5EC1A808DBD00220133 /* 2.2.6.swift in Sources */,
 				B0E9D58B1A808A2600220133 /* DartleSDK.m in Sources */,
-				B0E9D5D01A808DBD00220133 /* CKContainer+Promise.swift in Sources */,
 				B0E9D5871A808A2600220133 /* DartleAPI.m in Sources */,
 				B0E9D5901A808A2600220133 /* DartleSDKTests.m in Sources */,
-				B0E9D5D71A808DBD00220133 /* MKMapSnapshotter+Promise.swift in Sources */,
-				B0E9D5E01A808DBD00220133 /* UIActionSheet+Promise.swift in Sources */,
-				B0E9D5DC1A808DBD00220133 /* OMGUserAgent.m in Sources */,
 				B03EC3C61A7F314100D21881 /* BeaconController.swift in Sources */,
 				B0E9D5931A808A2600220133 /* README.md in Sources */,
-				B0E9D5D21A808DBD00220133 /* CLGeocoder+Promise.swift in Sources */,
 				B01ECFAC1A7DCCAA0038A948 /* AppDelegate.swift in Sources */,
-				B0E9D5D11A808DBD00220133 /* CKDatabase+Promise.swift in Sources */,
-				B0E9D5E21A808DBD00220133 /* UIView+Promise.swift in Sources */,
-				B0E9D5E61A808DBD00220133 /* Promise.test.swift in Sources */,
-				B0E9D5D61A808DBD00220133 /* MKDirections+Promise.swift in Sources */,
-				B0E9D5E91A808DBD00220133 /* 2.2.2.swift in Sources */,
 				B0E9D58C1A808A2600220133 /* DartleUtility.m in Sources */,
 				B0E9D5881A808A2600220133 /* DartleBeacon.m in Sources */,
-				B0E9D5CD1A808DBD00220133 /* ACAccountStore+Promise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
