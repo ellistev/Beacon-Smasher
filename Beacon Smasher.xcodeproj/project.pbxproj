@@ -14,21 +14,6 @@
 		B01ECFB31A7DCCAA0038A948 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01ECFB21A7DCCAA0038A948 /* Images.xcassets */; };
 		B01ECFB61A7DCCAA0038A948 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B01ECFB41A7DCCAA0038A948 /* LaunchScreen.xib */; };
 		B01ECFC21A7DCCAA0038A948 /* Beacon_SmasherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01ECFC11A7DCCAA0038A948 /* Beacon_SmasherTests.swift */; };
-		B03EC3C61A7F314100D21881 /* BeaconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EC3C51A7F314100D21881 /* BeaconController.swift */; };
-		B0E9D5861A808A2600220133 /* BeaconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D56B1A808A2600220133 /* BeaconManager.m */; };
-		B0E9D5871A808A2600220133 /* DartleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D56E1A808A2600220133 /* DartleAPI.m */; };
-		B0E9D5881A808A2600220133 /* DartleBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5701A808A2600220133 /* DartleBeacon.m */; };
-		B0E9D5891A808A2600220133 /* DartleBeaconRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5721A808A2600220133 /* DartleBeaconRegion.m */; };
-		B0E9D58A1A808A2600220133 /* DartleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5741A808A2600220133 /* DartleManager.m */; };
-		B0E9D58B1A808A2600220133 /* DartleSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5761A808A2600220133 /* DartleSDK.m */; };
-		B0E9D58C1A808A2600220133 /* DartleUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5781A808A2600220133 /* DartleUtility.m */; };
-		B0E9D58D1A808A2600220133 /* OAuthHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D57A1A808A2600220133 /* OAuthHandler.m */; };
-		B0E9D58E1A808A2600220133 /* RestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D57C1A808A2600220133 /* RestHandler.m */; };
-		B0E9D58F1A808A2600220133 /* DartleSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B0E9D57D1A808A2600220133 /* DartleSDK.podspec */; };
-		B0E9D5901A808A2600220133 /* DartleSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5821A808A2600220133 /* DartleSDKTests.m */; };
-		B0E9D5911A808A2600220133 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0E9D5831A808A2600220133 /* Info.plist */; };
-		B0E9D5921A808A2600220133 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B0E9D5841A808A2600220133 /* Podfile */; };
-		B0E9D5931A808A2600220133 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0E9D5851A808A2600220133 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +23,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = B01ECFA51A7DCCAA0038A948;
 			remoteInfo = "Beacon Smasher";
-		};
-		B0E9D5951A808A2600220133 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B0E9D57E1A808A2600220133 /* DartleSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B48FCA2E1A0789B8006458BD;
-			remoteInfo = DartleSDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -60,32 +38,6 @@
 		B01ECFBB1A7DCCAA0038A948 /* Beacon SmasherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beacon SmasherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01ECFC01A7DCCAA0038A948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B01ECFC11A7DCCAA0038A948 /* Beacon_SmasherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon_SmasherTests.swift; sourceTree = "<group>"; };
-		B03EC3C51A7F314100D21881 /* BeaconController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconController.swift; sourceTree = "<group>"; };
-		B0E9D56A1A808A2600220133 /* BeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconManager.h; sourceTree = "<group>"; };
-		B0E9D56B1A808A2600220133 /* BeaconManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconManager.m; sourceTree = "<group>"; };
-		B0E9D56C1A808A2600220133 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		B0E9D56D1A808A2600220133 /* DartleAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DartleAPI.h; sourceTree = "<group>"; };
-		B0E9D56E1A808A2600220133 /* DartleAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DartleAPI.m; sourceTree = "<group>"; };
-		B0E9D56F1A808A2600220133 /* DartleBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DartleBeacon.h; sourceTree = "<group>"; };
-		B0E9D5701A808A2600220133 /* DartleBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DartleBeacon.m; sourceTree = "<group>"; };
-		B0E9D5711A808A2600220133 /* DartleBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DartleBeaconRegion.h; sourceTree = "<group>"; };
-		B0E9D5721A808A2600220133 /* DartleBeaconRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DartleBeaconRegion.m; sourceTree = "<group>"; };
-		B0E9D5731A808A2600220133 /* DartleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DartleManager.h; sourceTree = "<group>"; };
-		B0E9D5741A808A2600220133 /* DartleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DartleManager.m; sourceTree = "<group>"; };
-		B0E9D5751A808A2600220133 /* DartleSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DartleSDK.h; sourceTree = "<group>"; };
-		B0E9D5761A808A2600220133 /* DartleSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DartleSDK.m; sourceTree = "<group>"; };
-		B0E9D5771A808A2600220133 /* DartleUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DartleUtility.h; sourceTree = "<group>"; };
-		B0E9D5781A808A2600220133 /* DartleUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DartleUtility.m; sourceTree = "<group>"; };
-		B0E9D5791A808A2600220133 /* OAuthHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthHandler.h; sourceTree = "<group>"; };
-		B0E9D57A1A808A2600220133 /* OAuthHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthHandler.m; sourceTree = "<group>"; };
-		B0E9D57B1A808A2600220133 /* RestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestHandler.h; sourceTree = "<group>"; };
-		B0E9D57C1A808A2600220133 /* RestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestHandler.m; sourceTree = "<group>"; };
-		B0E9D57D1A808A2600220133 /* DartleSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DartleSDK.podspec; sourceTree = "<group>"; };
-		B0E9D57E1A808A2600220133 /* DartleSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DartleSDK.xcodeproj; sourceTree = "<group>"; };
-		B0E9D5821A808A2600220133 /* DartleSDKTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DartleSDKTests.m; sourceTree = "<group>"; };
-		B0E9D5831A808A2600220133 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0E9D5841A808A2600220133 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		B0E9D5851A808A2600220133 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +62,6 @@
 		B01ECF9D1A7DCCAA0038A948 = {
 			isa = PBXGroup;
 			children = (
-				B0E9D5681A808A2600220133 /* nfnty_admin-dartlesdk_ios-0e23d54c420d */,
 				B012DF1E1A806F1D005030D7 /* CoreBluetooth.framework */,
 				B01ECFA81A7DCCAA0038A948 /* Beacon Smasher */,
 				B01ECFBE1A7DCCAA0038A948 /* Beacon SmasherTests */,
@@ -136,7 +87,6 @@
 				B01ECFB21A7DCCAA0038A948 /* Images.xcassets */,
 				B01ECFB41A7DCCAA0038A948 /* LaunchScreen.xib */,
 				B01ECFA91A7DCCAA0038A948 /* Supporting Files */,
-				B03EC3C51A7F314100D21881 /* BeaconController.swift */,
 			);
 			path = "Beacon Smasher";
 			sourceTree = "<group>";
@@ -164,62 +114,6 @@
 				B01ECFC01A7DCCAA0038A948 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B0E9D5681A808A2600220133 /* nfnty_admin-dartlesdk_ios-0e23d54c420d */ = {
-			isa = PBXGroup;
-			children = (
-				B0E9D5691A808A2600220133 /* DartleSDK */,
-				B0E9D57D1A808A2600220133 /* DartleSDK.podspec */,
-				B0E9D57E1A808A2600220133 /* DartleSDK.xcodeproj */,
-				B0E9D5811A808A2600220133 /* DartleSDKTests */,
-				B0E9D5841A808A2600220133 /* Podfile */,
-				B0E9D5851A808A2600220133 /* README.md */,
-			);
-			path = "nfnty_admin-dartlesdk_ios-0e23d54c420d";
-			sourceTree = "<group>";
-		};
-		B0E9D5691A808A2600220133 /* DartleSDK */ = {
-			isa = PBXGroup;
-			children = (
-				B0E9D56A1A808A2600220133 /* BeaconManager.h */,
-				B0E9D56B1A808A2600220133 /* BeaconManager.m */,
-				B0E9D56C1A808A2600220133 /* Constants.h */,
-				B0E9D56D1A808A2600220133 /* DartleAPI.h */,
-				B0E9D56E1A808A2600220133 /* DartleAPI.m */,
-				B0E9D56F1A808A2600220133 /* DartleBeacon.h */,
-				B0E9D5701A808A2600220133 /* DartleBeacon.m */,
-				B0E9D5711A808A2600220133 /* DartleBeaconRegion.h */,
-				B0E9D5721A808A2600220133 /* DartleBeaconRegion.m */,
-				B0E9D5731A808A2600220133 /* DartleManager.h */,
-				B0E9D5741A808A2600220133 /* DartleManager.m */,
-				B0E9D5751A808A2600220133 /* DartleSDK.h */,
-				B0E9D5761A808A2600220133 /* DartleSDK.m */,
-				B0E9D5771A808A2600220133 /* DartleUtility.h */,
-				B0E9D5781A808A2600220133 /* DartleUtility.m */,
-				B0E9D5791A808A2600220133 /* OAuthHandler.h */,
-				B0E9D57A1A808A2600220133 /* OAuthHandler.m */,
-				B0E9D57B1A808A2600220133 /* RestHandler.h */,
-				B0E9D57C1A808A2600220133 /* RestHandler.m */,
-			);
-			path = DartleSDK;
-			sourceTree = "<group>";
-		};
-		B0E9D57F1A808A2600220133 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B0E9D5961A808A2600220133 /* libDartleSDK.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B0E9D5811A808A2600220133 /* DartleSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				B0E9D5821A808A2600220133 /* DartleSDKTests.m */,
-				B0E9D5831A808A2600220133 /* Info.plist */,
-			);
-			path = DartleSDKTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,12 +184,6 @@
 			mainGroup = B01ECF9D1A7DCCAA0038A948;
 			productRefGroup = B01ECFA71A7DCCAA0038A948 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B0E9D57F1A808A2600220133 /* Products */;
-					ProjectRef = B0E9D57E1A808A2600220133 /* DartleSDK.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				B01ECFA51A7DCCAA0038A948 /* Beacon Smasher */,
@@ -304,27 +192,14 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		B0E9D5961A808A2600220133 /* libDartleSDK.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libDartleSDK.a;
-			remoteRef = B0E9D5951A808A2600220133 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		B01ECFA41A7DCCAA0038A948 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E9D5921A808A2600220133 /* Podfile in Resources */,
 				B01ECFB11A7DCCAA0038A948 /* Main.storyboard in Resources */,
 				B01ECFB61A7DCCAA0038A948 /* LaunchScreen.xib in Resources */,
 				B01ECFB31A7DCCAA0038A948 /* Images.xcassets in Resources */,
-				B0E9D5911A808A2600220133 /* Info.plist in Resources */,
-				B0E9D58F1A808A2600220133 /* DartleSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,20 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E9D58E1A808A2600220133 /* RestHandler.m in Sources */,
-				B0E9D5891A808A2600220133 /* DartleBeaconRegion.m in Sources */,
-				B0E9D58A1A808A2600220133 /* DartleManager.m in Sources */,
 				B01ECFAE1A7DCCAA0038A948 /* ViewController.swift in Sources */,
-				B0E9D58D1A808A2600220133 /* OAuthHandler.m in Sources */,
-				B0E9D5861A808A2600220133 /* BeaconManager.m in Sources */,
-				B0E9D58B1A808A2600220133 /* DartleSDK.m in Sources */,
-				B0E9D5871A808A2600220133 /* DartleAPI.m in Sources */,
-				B0E9D5901A808A2600220133 /* DartleSDKTests.m in Sources */,
-				B03EC3C61A7F314100D21881 /* BeaconController.swift in Sources */,
-				B0E9D5931A808A2600220133 /* README.md in Sources */,
 				B01ECFAC1A7DCCAA0038A948 /* AppDelegate.swift in Sources */,
-				B0E9D58C1A808A2600220133 /* DartleUtility.m in Sources */,
-				B0E9D5881A808A2600220133 /* DartleBeacon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
