@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GimbalApplicationID</key>
+	<string>1d0a5d9645d89e434f2c8ceb9a1c8e1d12e6afb6c26c700976524e61400dd64f</string>
+	<key>GimbalSecret</key>
+	<string>ec21446c5ebeaca5705b0835c0b1f9248b4a726f6819b06a3d6e5f92638ebba9</string>
+	<key>CallbackURL</key>
+	<string>stevenpeterelliottbeaconsmasher://authcode</string>
+</dict>
+</plist>

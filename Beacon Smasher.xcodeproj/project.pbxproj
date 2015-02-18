@@ -14,6 +14,23 @@
 		B01ECFB31A7DCCAA0038A948 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01ECFB21A7DCCAA0038A948 /* Images.xcassets */; };
 		B01ECFB61A7DCCAA0038A948 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B01ECFB41A7DCCAA0038A948 /* LaunchScreen.xib */; };
 		B01ECFC21A7DCCAA0038A948 /* Beacon_SmasherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01ECFC11A7DCCAA0038A948 /* Beacon_SmasherTests.swift */; };
+		B0AB526C1A94132E00E9A7F4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AB526B1A94132E00E9A7F4 /* libz.dylib */; };
+		B0AB52731A94167600E9A7F4 /* UserContext.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0AB52721A94167600E9A7F4 /* UserContext.plist */; };
+		B0AB52751A9416FD00E9A7F4 /* GimbalManagerApplicationInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0AB52741A9416FD00E9A7F4 /* GimbalManagerApplicationInfo.plist */; };
+		B0E480391A941E1C00F71749 /* GimbalBeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E480381A941E1C00F71749 /* GimbalBeaconManager.swift */; };
+		B0E480461A94237400F71749 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E480451A94237400F71749 /* MapKit.framework */; };
+		B0E4804B1A94271B00F71749 /* FYX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E4804A1A94271B00F71749 /* FYX.framework */; };
+		B0E480581A94273F00F71749 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E4804D1A94273F00F71749 /* Common.framework */; };
+		B0E480591A94273F00F71749 /* ContextCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E4804F1A94273F00F71749 /* ContextCore.framework */; };
+		B0E4805A1A94273F00F71749 /* ContextLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E480511A94273F00F71749 /* ContextLocation.framework */; };
+		B0E4805B1A94273F00F71749 /* DataModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0E480531A94273F00F71749 /* DataModels.bundle */; };
+		B0E4805C1A94273F00F71749 /* ContextProfiling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E480551A94273F00F71749 /* ContextProfiling.framework */; };
+		B0E4805D1A94273F00F71749 /* NetworkServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E480571A94273F00F71749 /* NetworkServices.framework */; };
+		B0E9BE0D1A943A9A001BBEF4 /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9BE0C1A943A9A001BBEF4 /* PulseView.swift */; };
+		B0E9BE0F1A943AC7001BBEF4 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9BE0E1A943AC7001BBEF4 /* InitialViewModel.swift */; };
+		B0E9BE101A943C51001BBEF4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E4803B1A941E9600F71749 /* CoreLocation.framework */; };
+		B0E9BE121A943C5B001BBEF4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E9BE111A943C5B001BBEF4 /* CoreData.framework */; };
+		B0E9BE141A943C6E001BBEF4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E9BE131A943C6E001BBEF4 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +55,25 @@
 		B01ECFBB1A7DCCAA0038A948 /* Beacon SmasherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beacon SmasherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01ECFC01A7DCCAA0038A948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B01ECFC11A7DCCAA0038A948 /* Beacon_SmasherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon_SmasherTests.swift; sourceTree = "<group>"; };
+		B0AB526B1A94132E00E9A7F4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B0AB526D1A94135100E9A7F4 /* Gimbal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Gimbal.framework; sourceTree = "<group>"; };
+		B0AB52721A94167600E9A7F4 /* UserContext.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserContext.plist; sourceTree = "<group>"; };
+		B0AB52741A9416FD00E9A7F4 /* GimbalManagerApplicationInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GimbalManagerApplicationInfo.plist; sourceTree = "<group>"; };
+		B0E480381A941E1C00F71749 /* GimbalBeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GimbalBeaconManager.swift; sourceTree = "<group>"; };
+		B0E4803B1A941E9600F71749 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B0E4803E1A941EF000F71749 /* SwiftGimbal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SwiftGimbal-Bridging-Header.h"; path = "Beacon Smasher/SwiftGimbal-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		B0E480451A94237400F71749 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B0E4804A1A94271B00F71749 /* FYX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FYX.framework; path = ../Frameworks/FYX.framework; sourceTree = "<group>"; };
+		B0E4804D1A94273F00F71749 /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Common.framework; sourceTree = "<group>"; };
+		B0E4804F1A94273F00F71749 /* ContextCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextCore.framework; sourceTree = "<group>"; };
+		B0E480511A94273F00F71749 /* ContextLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextLocation.framework; sourceTree = "<group>"; };
+		B0E480531A94273F00F71749 /* DataModels.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DataModels.bundle; sourceTree = "<group>"; };
+		B0E480551A94273F00F71749 /* ContextProfiling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextProfiling.framework; sourceTree = "<group>"; };
+		B0E480571A94273F00F71749 /* NetworkServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NetworkServices.framework; sourceTree = "<group>"; };
+		B0E9BE0C1A943A9A001BBEF4 /* PulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
+		B0E9BE0E1A943AC7001BBEF4 /* InitialViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewModel.swift; sourceTree = "<group>"; };
+		B0E9BE111A943C5B001BBEF4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B0E9BE131A943C6E001BBEF4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +81,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E9BE141A943C6E001BBEF4 /* Security.framework in Frameworks */,
+				B0E9BE121A943C5B001BBEF4 /* CoreData.framework in Frameworks */,
+				B0E9BE101A943C51001BBEF4 /* CoreLocation.framework in Frameworks */,
+				B0E4804B1A94271B00F71749 /* FYX.framework in Frameworks */,
+				B0E4805D1A94273F00F71749 /* NetworkServices.framework in Frameworks */,
+				B0AB526C1A94132E00E9A7F4 /* libz.dylib in Frameworks */,
+				B0E480461A94237400F71749 /* MapKit.framework in Frameworks */,
+				B0E4805A1A94273F00F71749 /* ContextLocation.framework in Frameworks */,
+				B0E480591A94273F00F71749 /* ContextCore.framework in Frameworks */,
+				B0E480581A94273F00F71749 /* Common.framework in Frameworks */,
 				B012DF1F1A806F1D005030D7 /* CoreBluetooth.framework in Frameworks */,
+				B0E4805C1A94273F00F71749 /* ContextProfiling.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +109,8 @@
 		B01ECF9D1A7DCCAA0038A948 = {
 			isa = PBXGroup;
 			children = (
-				B012DF1E1A806F1D005030D7 /* CoreBluetooth.framework */,
+				B0E9BE131A943C6E001BBEF4 /* Security.framework */,
+				B0E9BE111A943C5B001BBEF4 /* CoreData.framework */,
 				B01ECFA81A7DCCAA0038A948 /* Beacon Smasher */,
 				B01ECFBE1A7DCCAA0038A948 /* Beacon SmasherTests */,
 				B01ECFA71A7DCCAA0038A948 /* Products */,
@@ -81,22 +129,15 @@
 		B01ECFA81A7DCCAA0038A948 /* Beacon Smasher */ = {
 			isa = PBXGroup;
 			children = (
-				B01ECFAB1A7DCCAA0038A948 /* AppDelegate.swift */,
-				B01ECFAD1A7DCCAA0038A948 /* ViewController.swift */,
-				B01ECFAF1A7DCCAA0038A948 /* Main.storyboard */,
+				B0E480481A94244B00F71749 /* Storyboards */,
+				B0E480471A94243D00F71749 /* Main */,
+				B0E480411A9420A400F71749 /* App */,
+				B0E4803D1A941ECB00F71749 /* Config */,
 				B01ECFB21A7DCCAA0038A948 /* Images.xcassets */,
 				B01ECFB41A7DCCAA0038A948 /* LaunchScreen.xib */,
-				B01ECFA91A7DCCAA0038A948 /* Supporting Files */,
+				B0E4803A1A941E6500F71749 /* Frameworks */,
 			);
 			path = "Beacon Smasher";
-			sourceTree = "<group>";
-		};
-		B01ECFA91A7DCCAA0038A948 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B01ECFAA1A7DCCAA0038A948 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B01ECFBE1A7DCCAA0038A948 /* Beacon SmasherTests */ = {
@@ -115,6 +156,148 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		B0E480371A941DFC00F71749 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B0E480381A941E1C00F71749 /* GimbalBeaconManager.swift */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		B0E4803A1A941E6500F71749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E480451A94237400F71749 /* MapKit.framework */,
+				B0E480491A94246700F71749 /* Frameworks */,
+				B0E4803B1A941E9600F71749 /* CoreLocation.framework */,
+				B0AB526B1A94132E00E9A7F4 /* libz.dylib */,
+				B0AB526D1A94135100E9A7F4 /* Gimbal.framework */,
+				B012DF1E1A806F1D005030D7 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0E4803D1A941ECB00F71749 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB52741A9416FD00E9A7F4 /* GimbalManagerApplicationInfo.plist */,
+				B0AB52721A94167600E9A7F4 /* UserContext.plist */,
+				B01ECFAA1A7DCCAA0038A948 /* Info.plist */,
+				B0E4803E1A941EF000F71749 /* SwiftGimbal-Bridging-Header.h */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		B0E480411A9420A400F71749 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B0E480441A9420C900F71749 /* Controllers */,
+				B0E480431A9420BD00F71749 /* Views */,
+				B0E480371A941DFC00F71749 /* Modules */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		B0E480431A9420BD00F71749 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9BE0E1A943AC7001BBEF4 /* InitialViewModel.swift */,
+				B0E9BE0C1A943A9A001BBEF4 /* PulseView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B0E480441A9420C900F71749 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B01ECFAD1A7DCCAA0038A948 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B0E480471A94243D00F71749 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B01ECFAB1A7DCCAA0038A948 /* AppDelegate.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B0E480481A94244B00F71749 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B01ECFAF1A7DCCAA0038A948 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B0E480491A94246700F71749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E4804A1A94271B00F71749 /* FYX.framework */,
+				B0E4804C1A94273F00F71749 /* Common.embeddedframework */,
+				B0E4804E1A94273F00F71749 /* ContextCore.embeddedframework */,
+				B0E480501A94273F00F71749 /* ContextLocation.embeddedframework */,
+				B0E480541A94273F00F71749 /* ContextProfiling.embeddedframework */,
+				B0E480561A94273F00F71749 /* NetworkServices.embeddedframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0E4804C1A94273F00F71749 /* Common.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				B0E4804D1A94273F00F71749 /* Common.framework */,
+			);
+			name = Common.embeddedframework;
+			path = Frameworks/Common.embeddedframework;
+			sourceTree = SOURCE_ROOT;
+		};
+		B0E4804E1A94273F00F71749 /* ContextCore.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				B0E4804F1A94273F00F71749 /* ContextCore.framework */,
+			);
+			name = ContextCore.embeddedframework;
+			path = Frameworks/ContextCore.embeddedframework;
+			sourceTree = SOURCE_ROOT;
+		};
+		B0E480501A94273F00F71749 /* ContextLocation.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				B0E480511A94273F00F71749 /* ContextLocation.framework */,
+				B0E480521A94273F00F71749 /* Resources */,
+			);
+			name = ContextLocation.embeddedframework;
+			path = Frameworks/ContextLocation.embeddedframework;
+			sourceTree = SOURCE_ROOT;
+		};
+		B0E480521A94273F00F71749 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0E480531A94273F00F71749 /* DataModels.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0E480541A94273F00F71749 /* ContextProfiling.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				B0E480551A94273F00F71749 /* ContextProfiling.framework */,
+			);
+			name = ContextProfiling.embeddedframework;
+			path = Frameworks/ContextProfiling.embeddedframework;
+			sourceTree = SOURCE_ROOT;
+		};
+		B0E480561A94273F00F71749 /* NetworkServices.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				B0E480571A94273F00F71749 /* NetworkServices.framework */,
+			);
+			name = NetworkServices.embeddedframework;
+			path = Frameworks/NetworkServices.embeddedframework;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -166,6 +349,17 @@
 					B01ECFA51A7DCCAA0038A948 = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = LHGNVPN534;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.OMC = {
+								enabled = 0;
+							};
+						};
 					};
 					B01ECFBA1A7DCCAA0038A948 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -197,9 +391,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AB52731A94167600E9A7F4 /* UserContext.plist in Resources */,
+				B0AB52751A9416FD00E9A7F4 /* GimbalManagerApplicationInfo.plist in Resources */,
 				B01ECFB11A7DCCAA0038A948 /* Main.storyboard in Resources */,
 				B01ECFB61A7DCCAA0038A948 /* LaunchScreen.xib in Resources */,
 				B01ECFB31A7DCCAA0038A948 /* Images.xcassets in Resources */,
+				B0E4805B1A94273F00F71749 /* DataModels.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +414,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E480391A941E1C00F71749 /* GimbalBeaconManager.swift in Sources */,
+				B0E9BE0F1A943AC7001BBEF4 /* InitialViewModel.swift in Sources */,
 				B01ECFAE1A7DCCAA0038A948 /* ViewController.swift in Sources */,
+				B0E9BE0D1A943A9A001BBEF4 /* PulseView.swift in Sources */,
 				B01ECFAC1A7DCCAA0038A948 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,12 +543,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Beacon Smasher/Beacon Smasher.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Beacon",
+					Smasher,
+					"/Users/Steven/Desktop/SwiftGimbal-master/SwiftGimbal/frameworks/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/Common.embeddedframework",
+					"$(PROJECT_DIR)/Frameworks/ContextCore.embeddedframework",
+					"$(PROJECT_DIR)/Frameworks/ContextLocation.embeddedframework",
+					"$(PROJECT_DIR)/Frameworks/ContextProfiling.embeddedframework",
+					"$(PROJECT_DIR)/Frameworks/NetworkServices.embeddedframework",
+				);
 				INFOPLIST_FILE = "Beacon Smasher/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Beacon Smasher/SwiftGimbal-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -356,12 +571,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Beacon Smasher/Beacon Smasher.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Beacon",
+					Smasher,
+					"/Users/Steven/Desktop/SwiftGimbal-master/SwiftGimbal/frameworks/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/Common.embeddedframework",
+					"$(PROJECT_DIR)/Frameworks/ContextCore.embeddedframework",
+					"$(PROJECT_DIR)/Frameworks/ContextLocation.embeddedframework",
+					"$(PROJECT_DIR)/Frameworks/ContextProfiling.embeddedframework",
+					"$(PROJECT_DIR)/Frameworks/NetworkServices.embeddedframework",
+				);
 				INFOPLIST_FILE = "Beacon Smasher/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Beacon Smasher/SwiftGimbal-Bridging-Header.h";
 			};
 			name = Release;
 		};

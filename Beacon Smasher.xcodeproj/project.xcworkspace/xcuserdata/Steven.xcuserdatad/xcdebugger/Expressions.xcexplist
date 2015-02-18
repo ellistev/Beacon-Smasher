@@ -6,6 +6,22 @@
          contextName = "Beacon_Smasher.ViewController.parseAdvertisementData (Beacon_Smasher.ViewController)(Swift.AnyObject) -&gt; Swift.Optional&lt;ObjectiveC.NSData&gt;:ViewController.swift">
       </ContextState>
       <ContextState
+         contextName = "Beacon_Smasher.GimbalBeaconManager.startBeaconService (Beacon_Smasher.GimbalBeaconManager)() -&gt; ():GimbalBeaconManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "applicationInfo[&quot;GimbalApplicationID&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Beacon_Smasher.GimbalBeaconManager.loadPlist (Beacon_Smasher.GimbalBeaconManager)(Swift.String) -&gt; ObjectiveC.NSDictionary:GimbalBeaconManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSBundle.mainBundle()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Beacon_Smasher.ViewController.parseAdvertisementData (Beacon_Smasher.ViewController)(ObjectiveC.NSDictionary) -&gt; Swift.Optional&lt;ObjectiveC.NSData&gt;:ViewController.swift">
          <PersistentStrings>
             <PersistentString
